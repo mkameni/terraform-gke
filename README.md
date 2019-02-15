@@ -3,7 +3,7 @@
 This project setup and provision [Google Kubernetes Engine](https://cloud.google.com/) using [Terraform](https://www.terraform.io/)
 
 ### Requirements
-- [Terraform](https://www.terraform.io/)
+- [terraform](https://www.terraform.io/)
 - [gcloud-sdk](https://cloud.google.com/sdk/docs/)
 - [kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/)
 
