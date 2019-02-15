@@ -17,7 +17,7 @@ This project setup and provision Google Kubernetes Engine using Terraform
   $ gcloud auth login
   $ gcloud projects list
 ```
-6.
+6. Run those commands
 ```shell
   $ terraform init
   $ terraform plan
