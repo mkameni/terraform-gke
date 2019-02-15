@@ -22,5 +22,5 @@ This project setup and provision Google Kubernetes Engine using Terraform
   $ terraform plan
   $ terraform apply
 ```
-7. Run the output of the command `terraform apply`
-8. Check your kubeconfig context `kubectl config get-contexts`
+7. Run the output of the command ```terraform apply```
+8. Check your kubeconfig context ```kubectl config get-contexts```
