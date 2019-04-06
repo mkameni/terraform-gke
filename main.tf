@@ -15,7 +15,7 @@ resource "google_container_cluster" "gke-dev" {
   name               = "${var.cluster_name}"
   description        = "GKE cluster Dev"
   zone               = "${var.gcp_zone}"
-  additional_zones   = "${var.gcp_other_zone}"
+  # additional_zones   = "${var.gcp_other_zone}"
   initial_node_count = "${var.initial_node_count}"
   enable_kubernetes_alpha = "true"
   enable_legacy_abac = "true"

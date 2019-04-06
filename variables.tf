@@ -13,10 +13,10 @@ variable "gcp_zone" {
   default = "northamerica-northeast1-a"
 }
 
-variable "gcp_other_zone" {
-  description = "GCP list of other zone, e.g. northamerica-northeast1-b, northamerica-northeast1-c"
-  default = ["northamerica-northeast1-b", "northamerica-northeast1-c"]
-}
+# variable "gcp_other_zone" {
+#   description = "GCP list of other zone, e.g. northamerica-northeast1-b, northamerica-northeast1-c"
+#   default = ["northamerica-northeast1-b", "northamerica-northeast1-c"]
+# }
 
 variable "cluster_name" {
   description = "Name of the K8s cluster"
@@ -29,11 +29,11 @@ variable "initial_node_count" {
 }
 
 variable "worker_version" {
-  default = "1.11.7-gke.4"
+  default = "1.12.6-gke.10"
 }
 
 variable "master_version" {
-  default = "1.11.7-gke.4"
+  default = "1.12.6-gke.10"
 }
 
 variable "master_username" {
@@ -58,10 +58,10 @@ variable "node_disk_size" {
 
 variable "min_node_count" {
   default = "Minimum node"
-  default = "2"
+  default = "1"
 }
 
 variable "max_node_count" {
   default = "Maximum node"
-  default = "5"
+  default = "1"
 }
